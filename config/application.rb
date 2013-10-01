@@ -14,6 +14,13 @@ Bundler.require(:default, Rails.env)
 module SisyphusPlayground
   class Application < Rails::Application
 
+    config.generators do |g|
+      g.fixture_replacement :fabrication
+      g.orm             :mongoid
+      g.test_framework  :rspec
+      g.template_engine :haml
+    end
+
     # Mongoid/Moped Logging Levels. Logging is turned off by default, leaving these here if we need logging.
     # Mongoid.logger.level = Logger::DEBUG
     # Moped.logger.level = Logger::DEBUG
