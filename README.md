@@ -19,5 +19,8 @@ Sisyphus Playground/Learning App
 - Sample Rails 4 && Mongoid Project - [Echo](https://github.com/mongoid/echo)
 - Rails and Ember.js - [BEGINNING EMBER.JS ON RAILS](http://www.cerebris.com/blog/2012/01/24/beginning-ember-js-on-rails-part-1/)
 - [Configuring Rails for Mongoid](http://mongoid.org/en/mongoid/docs/rails.html)
+- This fucking awesome Gem I didn't know about: [jBuilder](https://github.com/rails/jbuilder) 
+- Great info on ember-rails gem [here](https://github.com/emberjs/ember-rails)
+- 
 
 
