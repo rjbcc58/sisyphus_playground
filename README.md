@@ -12,6 +12,8 @@ Sisyphus Playground/Learning App
 - git clone the Project  => `git clone git@github.com:Gowiem/sisyphus_playground.git`
 - Change into the Sisyphus project => `cd sisyphus_playground`
 - Setup a [.rvmrc file](http://rvm.io/workflow/projects) => `rvm --rvmrc --create 1.9.3-p448@sisyphus_playground`
+- Run bundler to install the project's gems (Gems are just Ruby libraries) => `bundle install`
+- Start the Rails Server and go to localhost:3000 in your browser => `rails s`
  
 
 ### Useful Resources
