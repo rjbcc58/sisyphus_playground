@@ -14,6 +14,9 @@ Bundler.require(:default, Rails.env)
 module SisyphusPlayground
   class Application < Rails::Application
 
+    # Tell ember-rails to use non minified version of ember.. I think.
+    config.ember.variant = :development
+
     config.generators do |g|
       g.fixture_replacement :fabrication
       g.orm             :mongoid
