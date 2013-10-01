@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 
 gem 'mongoid', github: 'mongoid/mongoid'
 gem 'haml-rails'
+gem 'ember-rails'
 
 group :development, :test do
   gem "fabrication"
