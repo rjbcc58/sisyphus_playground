@@ -21,6 +21,5 @@ Sisyphus Playground/Learning App
 - [Configuring Rails for Mongoid](http://mongoid.org/en/mongoid/docs/rails.html)
 - This fucking awesome Gem I didn't know about: [jBuilder](https://github.com/rails/jbuilder) 
 - Great info on ember-rails gem [here](https://github.com/emberjs/ember-rails)
-- 
 
 
