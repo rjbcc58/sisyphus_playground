@@ -13,6 +13,11 @@ Bundler.require(:default, Rails.env)
 
 module SisyphusPlayground
   class Application < Rails::Application
+
+    # Mongoid/Moped Logging Levels. Logging is turned off by default, leaving these here if we need logging.
+    # Mongoid.logger.level = Logger::DEBUG
+    # Moped.logger.level = Logger::DEBUG
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
